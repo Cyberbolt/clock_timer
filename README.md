@@ -130,9 +130,9 @@ def main():
     #减去3年
     time_end = timer.sub_years(time_start=time_start, years=3) 
     '''
-        返回 time_start 时间加上 years 年 的时间
+        返回 time_start 时间减去 years 年 的时间
         time_start: 起始时间，格式如 2021-07-26 19:52:06
-        years: 增加的年数，类型为 int
+        years: 减去的年数，类型为 int
     '''
     
     print(' 起始时间:', time_start, '\n', '修改时间:', time_end)

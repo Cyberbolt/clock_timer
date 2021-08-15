@@ -39,9 +39,9 @@ def add_years(time_start: str, years: int) -> str:
 
 def sub_years(time_start: str, years: int) -> str:
     '''
-        返回 time_start 时间加上 years 年 的时间
+        返回 time_start 时间减去 years 年 的时间
         time_start: 起始时间，格式如 2021-07-26 19:52:06
-        years: 增加的年数，类型为 int
+        years: 减去的年数，类型为 int
     '''
     time_start = datetime.datetime.strptime(time_start, '%Y-%m-%d %H:%M:%S')
     time_end = (time_start + relativedelta(years=-years)).strftime('%Y-%m-%d %H:%M:%S')
