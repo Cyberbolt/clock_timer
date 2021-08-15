@@ -403,5 +403,7 @@ if __name__ == '__main__':
 ```
 
 
+GitHub 地址 [https://github.com/Cyberbolt/clock_timer](https://github.com/Cyberbolt/clock_timer) （欢迎 star）
 
+电光笔记官网 [https://www.cyberlight.xyz/](https://www.cyberlight.xyz/)
 
