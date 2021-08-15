@@ -385,7 +385,7 @@ from clock_timer import timer
 
 
 def main():
-    #时间戳 转 时间字符串
+    #时间字符串 转 时间戳
     time_str = '2021-07-26 19:52:06'
     time_int = timer.str_to_int(time_str) #时间字符串 转 时间戳
     
