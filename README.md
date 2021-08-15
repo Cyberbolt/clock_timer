@@ -182,10 +182,10 @@ from clock_timer import timer
 
 def main():
     time_day = '2021-07-26 19:52:06' #时间字符串
-    #返回该时间是星期几
+    #返回该时间对应的星座
     time_end = timer.to_constellation(time_day=time_day) 
     '''
-        返回 time_day 是星期几(0 到 6 分别代表 星期日 到 星期六)
+        返回 time_day 是哪个星座(星座使用中文名)
         time_day: 时间，格式如 2021-07-26 19:52:06
     '''
     
@@ -209,7 +209,7 @@ from clock_timer import timer
 
 def main():
     time_day = '2021-07-26 19:52:06' #时间字符串
-    #返回该时间是星期几
+    #返回该时间是对应年份的第几周
     time_end = timer.how_many_weeks(time_day=time_day) 
     '''
         返回 time_day 是该年的第几周
